@@ -65,7 +65,7 @@
         android:layout_marginHorizontal="32dp"
         android:background="@drawable/rounded_edittext"
         android:fontFamily="@font/lato_regular"
-        android:hint="Enter your email"
+        android:hint="Enter your password"
         android:paddingLeft="16sp"
         android:textColorHint="#8C8C8C"
         app:layout_constraintTop_toBottomOf="@+id/tv_pass"
