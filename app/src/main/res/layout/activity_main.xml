@@ -24,11 +24,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="40dp"
-        android:text="Welcome to\n\nStikes Inventory App"
+        android:text="Welcome to\nStikes Inventory App"
         android:textAllCaps="true"
         android:textAlignment="center"
         android:textSize="22sp"
-        android:fontFamily="@font/lato_regular"
+        android:fontFamily="@font/lato_black"
         app:layout_constraintTop_toBottomOf="@id/logo"
         tools:layout_editor_absoluteX="16dp"/>
 
@@ -51,6 +51,7 @@
         android:layout_marginHorizontal="32dp"
         android:layout_marginBottom="104dp"
         android:backgroundTint="@color/gray"
+        android:textSize="20dp"
         android:fontFamily="@font/lato_regular"
         android:text="Log In"
         android:textColor="@color/black"
