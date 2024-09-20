@@ -42,6 +42,10 @@ class LoginActivity : AppCompatActivity() {
                         Toast.makeText(baseContext, "Authentication failed", Toast.LENGTH_SHORT).show()
                     }
                 }
+                .addOnFailureListener { exception ->
+                    Log.e("LoginActivity", "Login failed: ${exception.message}")
+                    Toast.makeText(baseContext, "Error: ${exception.message}", Toast.LENGTH_SHORT).show()
+                }
         }
 
     }
